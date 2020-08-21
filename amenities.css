@@ -1,0 +1,82 @@
+.amenities {
+    background: url("images/pooja-chaudhary-q66grqqHpDQ-unsplash.jpg");
+    background-size: cover;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    min-height: 200px;
+}
+
+/* .amenities:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+} */
+
+.amenities-headings {
+    flex: 1;
+    font-family: KaushanScript;
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.amenities-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.amenity {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    display: flex;
+    border: 2px solid red;
+    border-radius: 60px;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.amenities-icon-1 {
+    content: url("icons/delivery.png");
+    height: 30px;
+    width: 30px;
+}
+
+.amenities-icon-2 {
+    content: url("icons/food-delivery.png");
+    height: 30px;
+    width: 30px;
+}
+
+.amenities-icon-3 {
+    content: url("icons/money.png");
+    height: 30px;
+    width: 30px;
+}
+
+.amenities-icon-4 {
+    content: url("icons/party.png");
+    height: 30px;
+    width: 30px;
+}
+
+.amenities-desc {
+    font-family: Itim;
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,83 @@
+.serve {
+    flex: 3;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.serve-headings {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.serve-headings span {
+    font-family: KaushanScript;
+    font-size: xx-large;
+}
+
+.serve-content {
+    flex: 4;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.serve-content-item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+.serve-content-image-1 {
+    flex: 4;
+    border-radius: 10px;
+    content: url("images/sharon-chen-L1ZhjK-R6uc-unsplash.jpg");
+    width: 100%;
+    max-height: 300px;
+}
+
+.serve-content-image-2 {
+    flex: 4;
+    border-radius: 10px;
+    content: url("images/4.jpeg");
+    width: 100%;
+    max-height: 300px;
+}
+
+.serve-content-image-3 {
+    flex: 4;
+    border-radius: 10px;
+    content: url("images/food-photographer-jennifer-pallian-OfdDiqx8Cz8-unsplash.jpg");
+    width: 100%;
+    max-height: 300px;
+}
+
+.serve-content-image-4 {
+    flex: 4;
+    border-radius: 10px;
+    content: url("images/andrew-wong-ieXeRR0qUFA-unsplash.jpg");
+    width: 100%;
+    max-height: 300px;
+}
+
+.serve-content-item-text {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Itim;
+    margin-top: 20px;
+}
+
+.serve-content-item-text-header {
+    text-align: center;
+}
+
+.serve-content-item-text-desc {
+    text-align: center;
+    font-size: small;
+    color: gray;
+    word-wrap: break-word;
+}

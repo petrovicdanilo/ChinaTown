@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'KaushanScript';
+    src: url('fonts/KaushanScript/KaushanScript-Regular.eot'); 
+    src: url('fonts/KaushanScript/KaushanScript-Regular?#iefix') format('embedded-opentype'), 
+         url('fonts/KaushanScript/KaushanScript-Regular.woff2') format('woff2'),
+         url('fonts/KaushanScript/KaushanScript-Regular.woff') format('woff'), 
+         url('fonts/KaushanScript/KaushanScript-Regular.ttf') format('truetype'),
+         url('fonts/KaushanScript/KaushanScript-Regular.svg#svgFontName') format('svg');
+  }
+
+  @font-face {
+    font-family: 'PatrickHand';
+    src: url('fonts/PatrickHand/PatrickHand-Regular.eot'); 
+    src: url('fonts/PatrickHand/PatrickHand-Regular?#iefix') format('embedded-opentype'), 
+         url('fonts/PatrickHand/PatrickHand-Regular.woff2') format('woff2'),
+         url('fonts/PatrickHand/PatrickHand-Regular.woff') format('woff'), 
+         url('fonts/PatrickHand/PatrickHand-Regular.ttf') format('truetype'),
+         url('fonts/PatrickHand/PatrickHand-Regular.svg#svgFontName') format('svg');
+  }
+
+  @font-face {
+    font-family: 'FredokaOne';
+    src: url('fonts/FredokaOne/FredokaOne-Regular.eot'); 
+    src: url('fonts/FredokaOne/FredokaOne-Regular?#iefix') format('embedded-opentype'), 
+         url('fonts/FredokaOne/FredokaOne-Regular.woff2') format('woff2'),
+         url('fonts/FredokaOne/FredokaOne-Regular.woff') format('woff'), 
+         url('fonts/FredokaOne/FredokaOne-Regular.ttf') format('truetype'),
+         url('fonts/FredokaOne/FredokaOne-Regular.svg#svgFontName') format('svg');
+  }
+
+  @font-face {
+    font-family: 'Itim';
+    src: url('fonts/Itim/Itim-Regular.eot.eot'); 
+    src: url('fonts/Itim/Itim-Regular?#iefix') format('embedded-opentype'), 
+         url('fonts/Itim/Itim-Regular.woff2') format('woff2'),
+         url('fonts/Itim/Itim-Regular.woff') format('woff'), 
+         url('fonts/Itim/Itim-Regular.ttf') format('truetype'),
+         url('fonts/Itim/Itim-Regular.svg#svgFontName') format('svg');
+  }
+
+  .wrapper {
+      display: flex;
+      flex-direction: column;
+  }

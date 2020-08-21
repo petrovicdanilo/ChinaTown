@@ -1,0 +1,47 @@
+.gallery {
+    background: url("images/miguel-maldonado-qom5MPOER-I-unsplash.jpeg");
+    background-size: cover;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-headings {
+    text-align: center;
+    font-size: xx-large;
+    font-family: KaushanScript;
+    color: white;
+}
+
+.gallery-content {
+    display: flex;
+    height: 40vh;
+}
+
+.gallery-image-1 {
+    flex: 1;
+
+    border-radius: 10px;
+    content: url("images/chinese-food-1.jpg");
+    margin: 10px;
+    max-height: 100%;
+    min-width: 0;
+}
+
+.gallery-image-2 {
+    flex: 1;
+    border-radius: 10px;
+    content: url("images/sharon-chen-L1ZhjK-R6uc-unsplash.jpg");
+    margin: 10px;
+    max-height: 100%;
+    min-width: 0;
+}
+
+.gallery-image-3 {
+    flex: 1;
+    border-radius: 10px; 
+    content: url("images/drew-taylor-jFu2L04tMBc-unsplash.jpg");
+    margin: 10px;
+    max-height: 100%;
+    min-width: 0;
+}

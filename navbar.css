@@ -1,0 +1,131 @@
+.navbar {
+    background: url("images/mae-mu-vjVHYlk91Vk-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 35vh;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+}
+
+.main-nav-logo {
+    padding-left: 5px;
+    display: flex;
+    padding-top: 5px;
+    vertical-align: bottom;
+    flex: 2;
+}
+
+.main {
+    font-family: KaushanScript;
+    color: white;
+    font-size: x-large;
+}
+
+.main-icon {
+    content: url("icons/ramen.png");
+    height: 40px;
+    width: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    flex: 6;
+}
+
+.nav-menu li {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.nav-menu li a {
+    color: black;
+    text-decoration: none;
+    font-family: FredokaOne;
+    font-size: small;
+}
+
+li a:hover {
+    color: white;
+}
+
+.menu-icon {
+    content: url("icons/menu.png");
+    height: 15px;
+    width: 15px;
+}
+
+div.menu-icon:hover {
+    content: url("icons/menu-hover.png");
+}
+
+
+.login {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.login li {
+    flex: 1;
+    font-family: FredokaOne;
+    font-size: medium;
+    text-align: center;
+}
+
+.login li a {
+    align-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.login li a:hover {
+    color: white;
+}
+
+.exp {
+    padding-left: 20px;
+    display: flex;
+    flex: 3;
+}
+
+.exp-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.exp .exp-desc span {
+    font-family: KaushanScript;
+    color: white;
+    font-size: xx-large;
+}
+
+.exp .exp-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.button {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+    font-family: PatrickHand;
+    font-size: medium;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

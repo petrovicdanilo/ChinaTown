@@ -1,0 +1,39 @@
+.aboutus {
+    flex: 2;
+    display: flex;
+    padding-top: 20px;
+    /* border-bottom: 2px solid lightgray; */
+    padding-bottom: 20px;
+    align-items: center;
+    height: 50vh;
+    margin: 20px;
+}
+
+.aboutus-desc {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+}
+
+.aboutus-desc-headings {
+    font-size: xx-large;
+    font-family: KaushanScript;
+}
+
+.aboutus-desc-text {
+    flex: 1;
+    color: gray;
+    font-family: Itim;
+    word-wrap: break-word;
+    margin: 10px;
+}
+
+.aboutus-image {
+    flex: 1;
+    border-radius: 15px;
+    content: url("images/chinese-food-1.jpg");
+    max-width: 100%;
+    max-height: 100%;
+    margin: 20px;
+}
