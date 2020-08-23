@@ -1,5 +1,5 @@
 .navbar {
-    background: url("images/mae-mu-vjVHYlk91Vk-unsplash.jpg");
+    background: url("images/miguel-maldonado-qom5MPOER-I-unsplash.jpeg");
     background-repeat: no-repeat;
     height: 35vh;
     flex: 4;
@@ -18,7 +18,6 @@
     display: flex;
     padding-top: 5px;
     vertical-align: bottom;
-    flex: 2;
 }
 
 .main {
@@ -36,59 +35,61 @@
 .nav-menu {
     display: flex;
     flex: 6;
+    justify-content: center;
+    justify-items: center;
+    padding-inline-start: 0;
 }
 
 .nav-menu li {
+    list-style: none;
     display: flex;
-    justify-items: center;
-    text-align: center;
-    padding: 5px;
+    margin: 5px;
 }
 
 .nav-menu li a {
-    color: black;
+    color: white;
     text-decoration: none;
-    font-family: FredokaOne;
-    font-size: small;
+    font-family: PatrickHand;
 }
 
 li a:hover {
-    color: white;
+    color: darkred;
 }
 
 .menu-icon {
     content: url("icons/menu.png");
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
 }
 
 div.menu-icon:hover {
     content: url("icons/menu-hover.png");
 }
 
-
 .login {
     flex: 1;
     display: flex;
+    padding-inline-start: 0;
+    list-style: none;
     justify-content: center;
-    list-style-type: none;
 }
 
 .login li {
-    flex: 1;
-    font-family: FredokaOne;
     font-size: medium;
-    text-align: center;
+    justify-items: center;
+    padding: 5px;
 }
 
 .login li a {
-    align-content: center;
+    font-family: PatrickHand;
+    flex: 1;
     text-decoration: none;
-    color: black;
+    color: white;
+    text-align: center;
 }
 
 .login li a:hover {
-    color: white;
+    color: darkred;
 }
 
 .exp {
@@ -128,4 +129,10 @@ div.menu-icon:hover {
     padding-right: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
+    outline: 0;
+}
+
+.button:hover {
+    cursor: hand;
+    color: black;
 }
