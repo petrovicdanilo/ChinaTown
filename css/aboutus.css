@@ -38,10 +38,8 @@
 }
 
 @media all and (max-width: 1200px) {
-
     .aboutus {
         flex-direction: column;
-        flex:3;
+        flex: 3;
     }
-
 }
