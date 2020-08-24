@@ -32,11 +32,11 @@
 }
 
 .serve-content-image-1 {
-    content: url("images/sharon-chen-L1ZhjK-R6uc-unsplash.jpg");
+    content: url("images/4.jpeg");
 }
 
 .serve-content-image-2 {
-    content: url("images/4.jpeg");
+    content: url("images/fran-hogan-0o944pEWnN0-unsplash.jpg");
 }
 
 .serve-content-image-3 {
@@ -56,6 +56,7 @@
     flex: 4;
     border-radius: 10px;
     background-size: cover;
+    object-fit: cover;
 }
 
 .serve-content-item-text {
