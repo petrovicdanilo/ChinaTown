@@ -2,7 +2,6 @@
     flex: 2;
     display: flex;
     padding-top: 20px;
-    /* border-bottom: 2px solid lightgray; */
     padding-bottom: 20px;
     align-items: center;
     height: 50vh;
@@ -34,6 +33,15 @@
     border-radius: 15px;
     content: url("images/chinese-food-1.jpg");
     max-width: 100%;
-    max-height: 100%;
+    max-height: 50vh;
     margin: 20px;
+}
+
+@media all and (max-width: 1200px) {
+
+    .aboutus {
+        flex-direction: column;
+        flex:3;
+    }
+
 }
